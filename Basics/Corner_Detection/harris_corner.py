@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 filename = '/Users/tanmaygulati/Documents/MATLAB/Image-Processing-using-Matlab/Retinal Scan Work/retina_scan.jpg'
-img = cv2.imread(filename)
+img = cv2.imread("Gaus.png")
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
 gray = np.float32(gray)
